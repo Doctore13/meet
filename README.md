@@ -1,37 +1,157 @@
-## Welcome to GitHub Pages
+<html >
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        padding-bottom: 50px;
+      }
 
-You can use the [editor on GitHub](https://github.com/Doctore13/meet/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+      .section {
+        margin-top: 10px;
+        padding-top: 20px;
+      }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      hr {
+        margin-top: 0px;
+      }
 
-### Markdown
+      h1 {
+        border-bottom: solid 3px;
+        padding: 5px;
+      }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      h4 {
+        margin: 10px 0px 1px 0px;
+      }
 
-```markdown
-Syntax highlighted code block
+      h5 {
+        margin: 10px 0px;
+      }
 
-# Header 1
-## Header 2
-### Header 3
+      .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+      }
+      .embed-container iframe,
+      .embed-container object,
+      .embed-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <title>Doctore!</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <h1 class="title">Google Meet</h1>
+        <h3>Tutorial</h3>
+        <ul>
+          <li>
+            O que é
+          </li>
+          <li>
+            Como usar
+          </li>
+          <li>
+            Integração com Google Agenda
+          </li>
+          <li>
+            Integração com Google Classroom
+          </li>
+        </ul>
+        <div class="embed-container">
+          <iframe
+            src="https://www.youtube.com/embed/dxomMM97_To"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-- Bulleted
-- List
+        <div class="section">
+          <h1 class="title">Opções Avançadas</h1>
+          <div class="embed-container">
+            <iframe
+              src="https://www.youtube.com/embed/MvieiBDFu6M"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Doctore13/meet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+          <h5>
+            8 Extensões principais para melhorar a experiência com o Google Meet
+          </h5>
+          <div class="row">
+            <div class="col">
+              <ul>
+                <li style="list-style: none; font-weight: bold;">
+                  <a
+                    href="https://chrome.google.com/webstore/detail/google-meet-grid-view/kklailfgofogmmdlhgmjgenehkjoioip"
+                    >1 - Google Meet Grid View
+                  </a>
+                </li>
+                <li style="list-style: none; font-weight: bold;">
+                  <a
+                    href="https://chrome.google.com/webstore/detail/nod-reactions-for-google/oikgofeboedgfkaacpfepbfmgdalabej"
+                    >2 - Nod - Reactions for Google Meet</a
+                  >
+                </li>
+                <li style="list-style: none; font-weight: bold;">
+                  <a
+                    href="https://chrome.google.com/webstore/detail/meet-attendance/nenibigflkdikhamlnekfppbganmojlg"
+                    >3 - Meet Attendance</a
+                  >
+                </li>
+                <li style="list-style: none; font-weight: bold;">
+                  <a
+                    href="https://chrome.google.com/webstore/detail/google-meet-call-timer/pappcjmimkmjekiaiedkhfogpclanicb"
+                    >4 - Google Meet Call Timer
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li style="list-style: none; font-weight: bold;">
+                  <a
+                    href="https://chrome.google.com/webstore/detail/google-meet-enhancement-s/ljojmlmdapmnibgflmmminacbjebjpno"
+                    >5 - Google Meet Enhancement Suite:
+                  </a>
+                </li>
+                <li style="list-style: none; font-weight: bold;">
+                  <a
+                    href="https://chrome.google.com/webstore/detail/web-paint/emeokgokialpjadjaoeiplmnkjoaegng"
+                    >6 - Web Paint</a
+                  >
+                </li>
+                <li style="list-style: none; font-weight: bold;">
+                  <a
+                    href="https://chrome.google.com/webstore/detail/dualless/bgdpkilkheacbboffppjgceiplijhfpd?hl=en-GB"
+                    >7 - Dualless</a
+                  >
+                </li>
+                <li style="list-style: none; font-weight: bold;">
+                  <a href="https://snapcamera.snapchat.com/">8 - Snap Camera</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
